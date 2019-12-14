@@ -1,0 +1,57 @@
+// ラップトップ
+@media all and (max-width: 1438px) {
+  // ヘッダー
+  header{
+    .container{
+      .header-left{
+        .title{
+          .logo-title{
+            font-size: 28px;
+          }
+        }
+      }
+      .header-right{
+        .link{
+          a{
+            margin-right: 10px;
+          }
+        }
+        .info{
+          .black{
+            font-size: 16px;
+          }
+            .tel{
+              font-size: 20px;
+            }
+          }
+      }
+    }
+  }
+
+  // メインビジュアル
+  .mv{
+    .container{
+      .mv-text{
+        flex-basis: 30%;
+        h1{
+          margin-top: 50px;
+        }
+        .hp{
+          top: 500px;
+        }
+        .mv-content{
+          margin-top: 170px;
+        }
+      }
+      .main{
+        flex-basis: 70%;
+      }
+    }
+  }
+  // エントリー
+	.entry{
+		top: 600px;
+	}
+  // エントリー
+}
+
