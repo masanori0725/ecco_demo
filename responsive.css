@@ -1,0 +1,32 @@
+@media all and (max-width: 1438px) {
+  header .container .header-left .title .logo-title {
+    font-size: 28px;
+  }
+  header .container .header-right .link a {
+    margin-right: 10px;
+  }
+  header .container .header-right .info .black {
+    font-size: 16px;
+  }
+  header .container .header-right .info .tel {
+    font-size: 20px;
+  }
+  .mv .container .mv-text {
+    flex-basis: 30%;
+  }
+  .mv .container .mv-text h1 {
+    margin-top: 50px;
+  }
+  .mv .container .mv-text .hp {
+    top: 500px;
+  }
+  .mv .container .mv-text .mv-content {
+    margin-top: 170px;
+  }
+  .mv .container .main {
+    flex-basis: 70%;
+  }
+  .entry {
+    top: 600px;
+  }
+}
