@@ -1,0 +1,492 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+
+body {
+  margin: 0 auto;
+  font-family: "游ゴシック体", yugothic, "游ゴシック", "Yu Gothic", "メイリオ", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  color: #333333;
+  letter-spacing: 0;
+  font-weight: 500;
+  line-height: 1.6;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+	text-align: center;
+	max-width: 1600px;
+}
+
+article,
+aside,
+footer,
+header,
+section,
+main {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+em,
+small,
+strong,
+sub,
+sup,
+mark,
+del,
+ins,
+strike,
+abbr,
+dfn,
+blockquote,
+q,
+cite,
+code,
+pre,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+section,
+article,
+main,
+aside,
+nav,
+header,
+hgroup,
+footer,
+img,
+figure,
+figcaption,
+address,
+time,
+audio,
+video,
+canvas,
+iframe,
+details,
+summary,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+a,
+a:visited {
+	color: inherit;
+	outline: none;
+}
+
+a:hover{
+	opacity: 0.6;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, sans-serif;
+	font-size: inherit;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+	text-align: center;
+}
+
+th,
+td {
+	padding: 7.5px 6px;
+	text-align: left;
+	vertical-align: top;
+	width: 400px;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote::after,
+blockquote::before,
+q::after,
+q::before {
+	content: "";
+	content: none;
+}
+
+.inner {
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 80px 0;
+}
+
+h4{
+	font-size: 20px;
+	color: #3E3E3E;
+	margin-bottom: 20px;
+	}
+
+p{
+	font-size: 14px;
+	color: #3E3E3E;
+}
+
+.gold{
+	color: #C5A882;
+	}
+
+.icon{
+	margin-top: 27px;
+	margin-right: 10px;
+}
+
+// ヘッダー
+header {
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #FFFFFF;
+	position: fixed;
+	z-index: 10;
+	.container{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		.header-left{
+			display: flex;
+			text-align: left;
+			.title{
+				margin-left: 20px;
+				.logo-title{
+					font-family: 'Josefin Sans','Bold';
+					font-size: 36px;
+				}
+			}
+		}
+		.header-right{
+			display: flex;
+			.link{
+				line-height: 70px;
+				a{
+					margin-right: 30px;
+				}
+			}
+			.info{
+				.black{
+					background-color: black;
+					color: #fff;
+					font-size: 20px;
+				}
+				.tel{
+					font-family: 'Josefin Sans','Bold';
+					font-size: 28px;
+					color: #C5A882;
+				}
+				.time{
+					font-size: 12px;
+					font-family: 'Josefin Sans','Bold';
+				}
+			}
+		}
+	}	
+}
+// ヘッダー
+
+// メインビジュアル
+.mv{
+	.container{
+		display: flex;
+		margin-top: 150px;
+		padding-right: 0;
+		margin-right: 0;
+		justify-content: space-between;
+		.mv-text{
+			text-align: left;
+			h1{
+				font-family: 'Josefin Sans', Times, Bold;
+				// font-family: 'Josefin Sans','Bold';
+				font-size: 75px;
+				width: 100px;
+				line-height: 100px;
+				margin-top: 100px;
+				margin-bottom: 20px;
+			}
+			h3{
+				font-size: 36px;
+				letter-spacing: 7.2px;
+				background-color: #fff;
+			}
+			.client{
+				position: absolute;
+			}
+			.hp{
+				position: absolute;
+				top: 550px;
+			}
+			.mv-content{
+				margin-top: 230px;
+			}
+		}	
+	}
+}
+// メインビジュアル
+
+// エントリー
+	.entry{
+		display: flex;
+		background-color: #fff;
+		position: absolute;
+		top: 650px;
+		right: 30px;
+		border: 10px solid #C5A882;
+		.entry-text{
+			padding: 30px 12px 26px 15px;
+			text-align: left;
+			.entry-link{
+				font-size: 24px;
+				padding-top: 20px;
+				.list{
+					margin: 15px;
+					font-size: 24px;
+					color: #C5A882;
+				}
+			}
+		}
+	}
+// エントリー
+
+
+// カード
+.card-wrapper{
+	margin-top: 200px;
+	.container{
+		padding-left: 0;
+		height: 500px;
+		.card-img{
+			width: 600px;
+		}
+		.card-text{
+			background-color: #fff;
+			text-align: left;
+			width: 910px;
+			padding: 50px;
+			position: relative;
+			top: -280px;
+			left: 500px;
+			.card-title{
+				font-size: 32px;
+			}
+			.card-title::after {
+				-webkit-transform: translate(-50%);
+				background: #C5A882;
+				bottom: 0;
+				content: "";
+				height: 3px;
+				left: 8%;
+				position: absolute;
+				transform: translate(-50%);
+				width: 40px;
+				margin-bottom: 210px;
+			}
+			.card-content{
+				margin-top: 70px;
+				font-size: 16px;
+			}
+		}
+	}
+}
+// カード
+
+// サービス
+.service-wrapper{
+	.container{
+		h2{
+			font-family: 'Josefin Sans','Bold';
+			font-size: 45px;
+		}
+		.service-inner{
+			.reason{
+				background-color: #C5A882;
+				font-size: 28px;
+				width: 1080px;
+				margin: 40px auto;
+				color: #FFFFFF;
+			}
+			.service-items{
+			width: 1080px;
+				margin: 0 auto;
+				.service-item{
+					width: 300px;
+					margin: 50px auto;
+					position: relative;
+					.service-content{
+						font-size: 18px;
+						margin: 20px 0 41px 0;
+					}
+					.service-content::after {
+						-webkit-transform: translate(-50%);
+						background: #C5A882;
+						bottom: 0;
+						content: "";
+						height: 3px;
+						left: 50%;
+						top: 300px;
+						position: absolute;
+						transform: translate(-50%);
+						width: 40px;
+					}
+				}
+				.top-item{
+					margin: 0 auto;
+					display: flex;
+				}
+				.under-item{
+					display: flex;
+				}
+				.left-item{
+					margin: 0 45px 0 auto;
+				}
+				.right-item{
+					margin: 0 auto 0 45px;
+				}
+			}
+		}
+	}
+}
+// サービス
+
+// サイトメニュー
+.site-menu{
+	margin-top: 100px;
+	background-color: #F9F6F5;
+	padding: 40px 0;
+	.container{
+		.menu-wrapper{
+			width: 85%;
+			margin: 0 auto;
+			.menu-main{
+				.sete-menu{
+					font-size: 18px;
+					font-family: 'Josefin Sans','Bold';
+					text-align: left;
+					border-bottom: 1px solid #CCCCCC;
+					padding-bottom: 10px;
+				}
+				.list{
+					margin: 10px;
+				}
+				.pre-footer{
+					display: flex;
+					justify-content: space-between;
+					margin: 80px auto 40px auto;
+					.site-logo{
+					display: flex;
+					text-align: left;
+					.title{
+						margin-left: 20px;
+						.logo-title{
+							font-family: 'Josefin Sans','Bold';
+							font-size: 36px;
+						}
+					}
+					}
+					.contact{
+						display: flex;
+						.info{
+							.black{
+								background-color: black;
+								color: #fff;
+								font-size: 18px;
+							}
+							.tel{
+								font-family: 'Josefin Sans','Bold';
+								font-size: 28px;
+								color: #C5A882;
+							}
+							.time{
+								font-size: 12px;
+							}
+						}
+						.contact-link{
+							background-color: #C5A882;
+							color: #FFFFFF;
+							padding: 25px 32px 21px 32px;
+							font-size: 24px;
+							font-family: 'Josefin Sans','Bold';
+							margin-left: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// サイトメニュー
+
+// フッター
+footer{
+	background-color: #000000;
+	height: 40px;
+	line-height: 40px;
+	p{
+		font-size: 12px;
+		color: #fff;
+		font-family: 'Josefin Sans','Bold';
+	}
+}
+// フッター
