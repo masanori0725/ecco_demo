@@ -264,7 +264,7 @@ header .container .header-right .info .time {
 }
 
 .mv .container .mv-text h1 {
-  font-family: 'Josefin Sans', Times, Bold;
+  font-family: 'Josefin Sans','Bold';
   font-size: 75px;
   width: 100px;
   line-height: 100px;
@@ -311,9 +311,7 @@ header .container .header-right .info .time {
 }
 
 .entry .entry-text .entry-link .list {
-  margin: 15px;
-  font-size: 24px;
-  color: #C5A882;
+  margin: 12px;
 }
 
 .card-wrapper {
